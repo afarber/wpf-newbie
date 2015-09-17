@@ -33,5 +33,25 @@ namespace MyTabs
             this.tabItemPreviousScreen = this.tabItemCurrentScreen;
             this.tabItemCurrentScreen = tabItemOfScreenToSet;
         }
+
+        private void Tab2Clicked(object sender, MouseButtonEventArgs e)
+        {
+            SetScreen(this.tabItem2);
+        }
+
+        private void Tab3Clicked(object sender, MouseButtonEventArgs e)
+        {
+            SetScreen(this.tabItem3);
+        }
+
+        private void Tab4Clicked(object sender, MouseButtonEventArgs e)
+        {
+            SetScreen(this.tabItem4);
+        }
+
+        private void Tab5Clicked(object sender, MouseButtonEventArgs e)
+        {
+            SetScreen(this.tabItem5);
+        }
     }
 }

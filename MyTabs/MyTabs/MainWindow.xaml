@@ -7,11 +7,40 @@
             <TabItem x:Name="tabItem1" Header="" Margin="0" BorderBrush="Black" Width="0" Height="0">
                 <Grid Background="#FFE5E5E5">
                     <ListBox x:Name="listBox_devices" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="495" Height="300">
-                        <ListBoxItem Content="Tab #1"/>
-                        <ListBoxItem Content="Tab #2"/>
-                        <ListBoxItem Content="Tab #3"/>
-                        <ListBoxItem Content="Tab #4"/>
-                        <ListBoxItem Content="Tab #5"/>
+                        <ListBoxItem>
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="Tab #1" />
+                                <Image Height="48" Source="delete.png" Stretch="Fill" Width="48"/>
+                            </StackPanel>
+                        </ListBoxItem>
+
+                        <ListBoxItem>
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="Tab #2"  MouseUp="Tab2Clicked" />
+                                <Image Height="48" Source="delete.png" Stretch="Fill" Width="48"/>
+                            </StackPanel>
+                        </ListBoxItem>
+
+                        <ListBoxItem>
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="Tab #3"  MouseUp="Tab3Clicked" />
+                                <Image Height="48" Source="delete.png" Stretch="Fill" Width="48"/>
+                            </StackPanel>
+                        </ListBoxItem>
+
+                        <ListBoxItem>
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="Tab #4"  MouseUp="Tab4Clicked" />
+                                <Image Height="48" Source="delete.png" Stretch="Fill" Width="48"/>
+                            </StackPanel>
+                        </ListBoxItem>
+
+                        <ListBoxItem>
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="Tab #5"  MouseUp="Tab5Clicked" />
+                                <Image Height="48" Source="delete.png" Stretch="Fill" Width="48"/>
+                            </StackPanel>
+                        </ListBoxItem>
                     </ListBox>
                 </Grid>
             </TabItem>
